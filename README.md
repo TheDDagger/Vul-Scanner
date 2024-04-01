@@ -35,4 +35,4 @@ Python Vulnerability Scanner is a command-line tool designed to scan hosts for v
 ## Usage
 
 ```bash
-python scanner.py <target_host>
+python VulSCAN.py
