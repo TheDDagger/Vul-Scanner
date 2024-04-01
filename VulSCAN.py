@@ -123,7 +123,7 @@ def print_vulnerabilities():
         9200: "Elasticsearch (potential for unauthorized access)",
         9999: "Hydra (brute force password attacks)",
         10000: "Webmin (potential for unauthorized access)"
-    }}
+    }
     print(colored("Port Vulnerabilities:", 'cyan'))
     for port, vulnerability in vulnerabilities.items():
         print(colored(f"Port {port}: {vulnerability}", 'yellow'))
